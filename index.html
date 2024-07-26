@@ -25,24 +25,24 @@
     <h1>Cloth Simulation</h1> 
 		<button type="button" id = "buttonRun" class="button">Run</button>
 		<button type="button" id = "buttonRestart" class="button">Restart</button>
-        <button type="button" id = "buttonExport" class="button">Export</button>
+        	<button type="button" id = "buttonExport" class="button">Export</button>
 
 		<input title = 'checkboxEdges' id = "checkboxEdges" type = "checkbox" value = "0"> Hide Mesh&nbsp;&nbsp;
-        <input title = 'checkboxCollisions' id = "checkboxCollisions" type = "checkbox"> Handle Self-Collisions&nbsp;&nbsp;
-        <input title = 'checkboxGravity' id = "checkboxGravity" type = "checkbox"> Use Pulsatile Flow&nbsp;&nbsp;
-        <input title = 'checkboxFixed' id = "checkboxFixedVertices" type = "checkbox" value = "0"> Exclude Fixed Vertices from Mouse Interaction</p>
+	        <input title = 'checkboxCollisions' id = "checkboxCollisions" type = "checkbox"> Handle Self-Collisions&nbsp;&nbsp;
+	        <input title = 'checkboxGravity' id = "checkboxGravity" type = "checkbox"> Use Pulsatile Flow&nbsp;&nbsp;
+	        <input title = 'checkboxFixed' id = "checkboxFixedVertices" type = "checkbox" value = "0"> Exclude Fixed Vertices from Mouse Interaction</p>
 
 		<span id = "numTris">0</span> tris&nbsp;&nbsp;
 		<span id = "numVerts">0</span> verts&nbsp;&nbsp;
 		<span id = "ms">0.000</span> ms per frame&nbsp;&nbsp;
         		Bending compliance:
 		<input title = 'Slider' type = "range" min = "0" max = "1" value = "0.05" step="0.05" id = "bendingComplianceSlider" class = "slider">
-        <span id = "bendingCompliance">0</span>/1</p>
+        	<span id = "bendingCompliance">0</span>/1</p>
 
 		<div id="container"></div>
 
-        <script src="https://unpkg.com/three@0.139.2/build/three.min.js"></script>
-        <script src="https://unpkg.com/three@0.139.2/examples/js/controls/OrbitControls.js"></script>
+	        <script src="https://unpkg.com/three@0.139.2/build/three.min.js"></script>
+	        <script src="https://unpkg.com/three@0.139.2/examples/js/controls/OrbitControls.js"></script>
 
     
         <script>
