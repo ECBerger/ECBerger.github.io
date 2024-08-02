@@ -35,16 +35,10 @@
     <input title='Slider' type="range" min="0" max="1" value="0.05" step="0.05" id="bendingComplianceSlider" class="slider">
     <span id="bendingCompliance">0</span>/1</p>
     <div id="container"></div>
-    <script type='importmap'> {
-        'imports': {
-            'three': 'C:/Users/320254491/Documents/node_modules/three/build/three.module.js',
-            'three/addons/': 'C:/Users/320254491/Documents/node_modules/three/addons'
-        }
-    }
+    <script src="https://unpkg.com/three@0.139.2/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.139.2/examples/js/controls/OrbitControls.js"></script>
     </script>
-    <script>import * as THREE from 'three';
-        import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-        
+    <script>        
         // ----- math on vector arrays -------------------------------------------------------------
         
         function vecSetZero(a,anr) {
