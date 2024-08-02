@@ -898,7 +898,7 @@
         
             gThreeScene.add(gCamera);
         
-            gCameraControl = new OrbitControls(gCamera, gRenderer.domElement);
+            gCameraControl = new THREE.OrbitControls(gCamera, gRenderer.domElement);
             gCameraControl.zoomSpeed = 2.0;
             gCameraControl.panSpeed = 0.4;
             gCameraControl.target = new THREE.Vector3(0.0, 0.6, 0.0);
