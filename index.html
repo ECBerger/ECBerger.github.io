@@ -615,11 +615,11 @@
                 }
 
                 // Attach vertices based on their y-value, accounting for float precision limitations
-                var epsilon = 0.001;
+                var epsilon = 0.1;
 
                 for (var i = 0; i < this.numParticles; i++) {
                     var y = this.pos[3 * i + 1];
-                    if (Math.abs(y - 2.1) < epsilon) {
+                    if (Math.abs(y - 2) < epsilon) {
                         this.invMass[i] = 0.0;
                     }
                 }
