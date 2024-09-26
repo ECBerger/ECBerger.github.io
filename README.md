@@ -1,3 +1,3 @@
 "# ECBerger.github.io" 
 
-for sharing
+polished version for outside sharing
